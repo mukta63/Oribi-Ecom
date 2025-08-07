@@ -2,14 +2,16 @@ import React from "react";
 import Container from "./Container";
 import Flex from "./Flex";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/Logo (22).png"
+import Logo from "../../assets/Logo (20).png"
+
 import { FaLinkedinIn,FaFacebookF } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
+import Images from "./Images";
 
 const Footer = () => {
   return (
     <>
-      <div className="py-5 bg-[#F5F5F3]">
+      <div className="py-[45px] bg-[#F5F5F3]">
         <Container>
           <Flex className={`justify-between items-center`}>
             <div className="">
@@ -112,7 +114,7 @@ const Footer = () => {
               <p>575 Crescent Ave Quakertown PA 18951</p>
             </div>
             <div className="">
-            <img src="/src/assets/Logo (22).png" alt="/src/assets/Logo (22).png" className="" />
+           <Images imgSrc={Logo}/>
             </div>
          
           

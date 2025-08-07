@@ -16,8 +16,8 @@ const Header = () => {
             <Flex>
                 <div className="">
                     <Images imgSrc={logo}/>
-                    Logo
-                    {/* Logo img ta Show kortesena kan Solve korte hobe */}
+                   
+        
                 </div>
                 <div className="m-auto">
                     <ul className='flex gap-x-[40px] font-medium text-[#767676]
